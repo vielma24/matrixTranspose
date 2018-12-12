@@ -28,7 +28,7 @@ Execute with the command:
 Program will output matrix to the screen and exit. 
 
 In the event mpi4py encounters an error prohibiting it from exiting, press 
-Ctrl + 'c' (or Ctrl + Shift + 'c' on some laptops). Only do this once or may 
+Ctrl + C (or Ctrl + Shift + C on some laptops). Only do this once or may 
 force quit mpi4py leaving hanging processes.
 
 
