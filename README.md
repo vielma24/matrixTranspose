@@ -1,4 +1,4 @@
-###DEPENDENCIES
+### DEPENDENCIES
 Python v2.7
 Python mpi4py
 Python re
@@ -7,11 +7,11 @@ Open MPI v4.0
 **Note:** In an n x m matrix, there must be m number of elements in each row with a 
 space delimeter.
 
-###SETUP
+### SETUP
 In main(), the default text file name is 'input.txt'. This file can be 
 modified or the file name in main() can be replaced to use a different file. 
 
-###EXECUTE
+### EXECUTE
 Execute with the command:
 
     mpirun -n  <number of rows in input file>  python transpose.py
@@ -24,7 +24,7 @@ Execute with the command:
     6  7  8  9  10
     11 12 13 14 15
 
-###TERMINATION
+### TERMINATION
 Program will output matrix to the screen and exit. 
 
 In the event mpi4py encounters an error prohibiting it from exiting, press 
